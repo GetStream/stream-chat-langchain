@@ -25,11 +25,12 @@
     "@langchain/core": "^0.3.26",
     "@langchain/google-genai": "^0.1.7",
     "@langchain/openai": "^0.3.10",
-    "axios": "^1.7.9",
+    "axios": "^1.13.2",
     "stream-chat": "^9.27.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/node": "^24.10.1",
     "typescript": "^5.9.2"
   }
 }
