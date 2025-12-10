@@ -1,6 +1,6 @@
 {
   "name": "@stream-io/chat-langchain-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared LangChain agent utilities for Stream Chat",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
