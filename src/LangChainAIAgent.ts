@@ -824,7 +824,8 @@ class LangChainResponseHandler {
     const id = this.message.id;
     this.lastUpdatePromise = this.lastUpdatePromise.then(() =>
       this.chatClient
-        .ephemeralUpdateMessage(id, {
+        //.ephemeralUpdateMessage(id, {
+        .partialUpdateMessage(id, {
           set: { text, generating: true } as any,
         })
         .then(() => undefined),
